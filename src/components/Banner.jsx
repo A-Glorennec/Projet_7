@@ -1,9 +1,5 @@
-import image from '../assets/home_cover.png'
-import '../styles/Banner.css'
-
-const text = 'Chez vous, partout et ailleurs'
-
-function Banner() {
+function Banner({ image }) {
+  const text = 'Chez vous, partout et ailleurs'
   return (
     <div className="banner">
       <img className="banner_img" src={image} alt="falaises" />

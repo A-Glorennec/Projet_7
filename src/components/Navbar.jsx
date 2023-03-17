@@ -1,6 +1,6 @@
-//import { link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
-/*function Navbar() {
+function Navbar() {
   const currentRoute = window.location.pathname
 
   return (
@@ -11,22 +11,22 @@
             currentRoute === '/Kasa/' ? 'nav_list_item_active' : 'nav_list_item'
           }
         >
-          <link to="/kasa/">Accueil</link>
+          <Link to="/kasa/">Accueil</Link>
         </li>
         <li
           className={
             currentRoute === '/about' ? 'nav_list_item_active' : 'nav_list_item'
           }
         >
-          <link to="/about">A propos</link>
+          <Link to="/about">A propos</Link>
         </li>
       </ul>
     </nav>
   )
 }
-export default <Navbar></Navbar*/
+export default Navbar
 
-function Navbar() {
+/*function Navbar() {
   return (
     <nav className="navbar">
       <ul className="nav_list">
@@ -36,4 +36,4 @@ function Navbar() {
     </nav>
   )
 }
-export default Navbar
+export default Navbar*/

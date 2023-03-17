@@ -1,18 +1,18 @@
 import Home from './pages/Home'
-//import NotFound from './pages/NotFound'
-//import About from './pages/About'
+import NotFound from './pages/NotFound'
+import About from './pages/About'
 //import Housing from './pages/Housing'
-//import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
-/*const router = createBrowserRouter([
+const router = createBrowserRouter([
   {
-    path: '/Kasa/',
+    path: '/kasa/',
     element: <Home />,
   },
-  {
+  /*{
     path: '/houses/:id',
     element: <Housing />,
-  },
+  },*/
   {
     path: '/about',
     element: <About />,
@@ -21,9 +21,9 @@ import Home from './pages/Home'
     path: '*',
     element: <NotFound />,
   },
-])*/
+])
 
-/*function App() {
+function App() {
   return (
     <>
       <RouterProvider router={router} />
@@ -31,9 +31,9 @@ import Home from './pages/Home'
   )
 }
 
-export default App*/
+export default App
 
-function App() {
+/*function App() {
   return <Home />
 }
-export default App
+export default App*/
