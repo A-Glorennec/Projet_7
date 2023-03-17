@@ -1,5 +1,6 @@
 import Header from '../components/Header'
 import { Link } from 'react-router-dom'
+import '../styles/NotFound.css'
 
 function NotFound() {
   return (
@@ -10,10 +11,11 @@ function NotFound() {
         <p className="notFound_description">
           Oups! La page que vous recherchez n'existe pas.
         </p>
+
+        <Link className="notFound_return_home" to="/">
+          Retouner sur la page d'accueil
+        </Link>
       </div>
-      <Link className="notFound_return_home" to="/">
-        Retouner sur la page d'accueil
-      </Link>
     </div>
   )
 }

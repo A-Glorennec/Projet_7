@@ -1,5 +1,7 @@
 import data from '../data/data.json'
 import Card from '../components/Card'
+import '../styles/Gallery.css'
+import '../styles/Card.css'
 
 function Gallery() {
   return (

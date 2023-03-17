@@ -1,0 +1,15 @@
+.notFound {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.notFound_txt {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.notFound_title {
+  font-size: 200px;
+  color: #ff6060;
+}
